@@ -22,4 +22,4 @@ URL2=$BASE_URL/$SAT/$MID_URL/$PENULTIMATE\_$SAT$FILE
     sleep 0
 } 
 
-#feh --bg-fill $OUT_FILE
+feh --bg-fill $OUT_FILE
