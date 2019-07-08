@@ -1,0 +1,6 @@
+!mkdir test
+mkdir test
+delete
+
+q
+open_with :q
