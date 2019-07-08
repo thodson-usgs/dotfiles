@@ -1,0 +1,58 @@
+! reload with
+! xrdb .Xresources
+
+! URxvt
+
+!URxvt.font: xft:monospace:size=12
+!URxvt.font: xft:Droid Sans Mono:pixelsize=13:Regular
+!URxvt.boldFont: xft:Droid Sans Mono:pixelsize=13:Bold
+!URxvt.italicFont: xft:Droid Sans Mono:pixelsize=13:Italic
+!URxvt.boldItalicFont: xft:Droid Sans Mono:pixelsize=13:Bold:Italic
+URxvt.font: xft:DejaVu Sans Mono:pixelsize=14:Regular
+URxvt.boldFont: xft:DejaVu Sans Mono:pixelsize=14:Bold
+URxvt.italicFont: xft:DejaVu Sans Mono:pixelsize=14:Italic
+URxvt.boldItalicFont: xft:DejaVu Sans Mono:pixelsize=14:Bold:Italic
+
+URxvt.scrollBar: false
+
+!! reduce font spacing by one pixel
+!URxvt.letterSpace: -1
+
+! General
+!! theme from terminal.sexy
+! special
+*.foreground:   #a39e9b
+*.background:   #2f1e2e
+*.cursorColor:  #a39e9b
+
+! black
+*.color0:       #2f1e2e
+*.color8:       #776e71
+
+! red
+*.color1:       #ef6155
+*.color9:       #ef6155
+
+! green
+*.color2:       #48b685
+*.color10:      #48b685
+
+! yellow
+*.color3:       #fec418
+*.color11:      #fec418
+
+! blue
+*.color4:       #06b6ef
+*.color12:      #06b6ef
+
+! magenta
+*.color5:       #815ba4
+*.color13:      #815ba4
+
+! cyan
+*.color6:       #5bc4bf
+*.color14:      #5bc4bf
+
+! white
+*.color7:       #a39e9b
+*.color15:      #e7e9db
