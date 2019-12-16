@@ -9,3 +9,4 @@ stow i3status
 stow ranger
 stow vim
 stow X
+stow screen

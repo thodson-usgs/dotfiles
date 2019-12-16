@@ -1,0 +1,21 @@
+# skip the startup message
+startup_message off
+
+# Automatically detach on hangup. 
+autodetach on
+
+# Change default scrollback value for new windows
+defscrollback 10000
+
+# Make xterm scrolling work properly with screen.
+#termcapinfo xterm-256color|xterm-color|xterm|xterms|xs|rxvt ti@:te@
+
+caption always "%{= kw}%-w%{= BW}%n %t%{-}%+w %-= @%H - %LD %d %LM - %c"
+
+
+shelltitle "shell"
+shell -$SHELL
+
+# this was preventing copy and paste so i turned it off
+#mousetrack on
+#mousetrack off
