@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: roxygen function <- function(...) { ... }
+# key: rox
+# --
+#' ${1:description}
+#'
+#' @param <name> <description>
+#' @return ${2:returns}
+${3:name} <- function(${4:args}) {
+  `yas/selected-text`$0
+}

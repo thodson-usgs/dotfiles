@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: repeat { ... }
+# key: repeat
+# --
+repeat {
+`yas/selected-text`$0
+}
