@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 stow bin
+stow share      
 stow crontabs
 stow emacs
 stow fonts
